@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Центр Логос - подготовка к ЦТ</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="reference-home">
+  <a class="skip-link" href="#main">К содержимому</a>
+  <!-- Шапка сайта: логотип, навигация, вход в кабинет и переключатели настроек. -->
+  <header class="ref-header">
+    <div class="ref-container ref-header__inner">
+      <a class="ref-logo" href="index.html"><img src="images/logo.png" alt="Центр Логос"></a>
+      <button class="burger" type="button" aria-label="Открыть меню">☰</button>
+      <nav class="site-nav ref-nav">
+        <a href="#about">О центре</a><a href="#courses">Курсы</a><a href="#teachers">Преподаватели</a><a href="#reviews">Результаты</a><a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="ref-header__tools">
+        <a class="ref-account" href="login.html"><span class="ref-account__text">Кабинет</span><img src="images/user.png" alt="" aria-hidden="true"></a>
+        <div class="ref-switchers">
+          <div class="ref-segment" role="group" aria-label="Переключение языка"><button type="button" data-lang-choice="ru">RU</button><span>/</span><button type="button" data-lang-choice="en">EN</button></div>
+          <div class="ref-segment" role="group" aria-label="Переключение темы"><button type="button" data-theme-choice="dark">Dark</button><span>/</span><button type="button" data-theme-choice="light">Light</button></div>
+        </div>
+        <button class="ref-eye-button" type="button" data-modal-open="settings" aria-label="Версия для слабовидящих"><img src="images/eyes.png" alt="" aria-hidden="true"></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
