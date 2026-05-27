@@ -426,3 +426,129 @@ button {
   object-position: center bottom;
   transform: translate(20px, -45px);
 }
+/* Parents benefits section */
+
+.ref-parents {
+  min-height: 1140px;
+  padding: 62px 0 90px;
+  background: #fff;
+}
+
+.ref-parents h2 {
+  margin-bottom: 62px;
+  color: var(--ref-green);
+  font-size: 64px;
+  line-height: 1;
+  text-align: center;
+}
+
+.ref-parents__grid {
+  display: grid;
+  grid-template-columns: 0.65fr 0.9fr 1.15fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.ref-score-list {
+  display: grid;
+  gap: 70px;
+  padding-left: 180px;
+}
+
+.ref-score-list div {
+  display: grid;
+  gap: 8px;
+}
+
+.ref-score-list strong {
+  color: var(--ref-purple);
+  font-size: 68px;
+  line-height: 1;
+}
+
+.ref-score-list span {
+  max-width: 230px;
+  color: #555;
+}
+
+.ref-checks {
+  display: grid;
+  gap: 30px;
+}
+
+.ref-checks article {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  column-gap: 10px;
+}
+
+.ref-checks article::before {
+  content: "✓";
+  grid-row: 1 / span 2;
+  color: var(--ref-green);
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.ref-checks h3 {
+  margin-bottom: 8px;
+  color: var(--ref-green);
+  font-size: 21px;
+}
+
+.ref-checks p {
+  color: #555;
+}
+
+.ref-person {
+  min-height: 700px;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+}
+
+.ref-person--parents {
+  transform: translateY(-46px);
+}
+
+.ref-person-ring {
+  grid-area: 1 / 1;
+  align-self: start;
+  width: 540px;
+  height: 540px;
+  margin-top: 55px;
+  border: 100px solid var(--ref-purple);
+  border-radius: 50%;
+}
+
+.ref-person img {
+  grid-area: 1 / 1;
+  z-index: 2;
+  width: 620px;
+  height: 760px;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.ref-ring {
+  display: none;
+  width: 190px;
+  height: 190px;
+  border: 50px solid;
+  border-radius: 50%;
+  filter: drop-shadow(0 10px 10px rgba(120, 0, 170, 0.12));
+}
+
+.ref-ring--purple {
+  color: var(--ref-purple);
+}
+
+.ref-ring--yellow {
+  color: var(--ref-yellow);
+}
+
+.ref-ring--left {
+  left: -110px;
+  top: 240px;
+}
