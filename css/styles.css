@@ -552,3 +552,138 @@ button {
   left: -110px;
   top: 240px;
 }
+/* Courses preview section */
+
+.ref-courses {
+  min-height: 940px;
+  margin-top: -82px;
+  padding: 150px 0;
+}
+
+.ref-courses h2,
+.ref-teacher h2 {
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+
+.ref-courses__grid {
+  max-width: 1390px;
+  display: grid;
+  grid-template-columns: 928px 390px;
+  gap: 72px;
+  align-items: center;
+  margin: 60px auto 0;
+}
+
+.ref-course-list {
+  display: grid;
+  grid-template-columns: repeat(2, 440px);
+  gap: 38px 48px;
+  justify-content: start;
+}
+
+.ref-course-list article {
+  box-sizing: border-box;
+  width: 440px;
+  height: 190px;
+  display: grid;
+  grid-template-columns: 1fr 28px;
+  grid-template-rows: auto 1fr auto;
+  column-gap: 10px;
+  padding: 24px 22px 20px 28px;
+  border-radius: 8px 8px 28px 8px;
+  background: #fff;
+  color: #494949;
+}
+
+.ref-course-list h3 {
+  grid-column: 1 / -1;
+  max-width: 354px;
+  margin: 0 0 7px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 900;
+}
+
+.ref-course-list p {
+  grid-column: 1 / -1;
+  max-width: 315px;
+  margin: 0;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.ref-course-list strong {
+  align-self: end;
+  color: var(--ref-green);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.favorite-btn {
+  border: 0;
+  background: transparent;
+  color: #111;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.favorite-btn.is-active {
+  color: var(--ref-purple);
+  transform: scale(1.08);
+}
+
+.ref-course-list article .favorite-btn {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: end;
+  justify-self: end;
+}
+
+.ref-course-list .ref-button {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.ref-test-card {
+  padding: 50px 38px;
+  border-radius: 10px;
+  background: var(--ref-purple);
+  text-align: center;
+  box-shadow: 0 20px 30px rgba(80, 40, 0, 0.2);
+}
+
+.ref-test-card h3 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.ref-test-card p {
+  color: #fff;
+  font-weight: 800;
+}
+
+.ref-test-card button {
+  width: 100%;
+  min-height: 58px;
+  border: 0;
+  border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(90deg, #f2a500, var(--ref-yellow));
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.ref-ring--course-left {
+  left: -95px;
+  top: 120px;
+}
+
+.ref-ring--course-right {
+  right: -105px;
+  bottom: 130px;
+}
