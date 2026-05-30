@@ -687,3 +687,38 @@ button {
   right: -105px;
   bottom: 130px;
 }
+/* Useful courses section */
+
+.ref-useful {
+  min-height: 720px;
+  display: grid;
+  place-items: center;
+  padding: 130px 0 90px;
+  text-align: center;
+}
+
+.ref-useful h2 {
+  color: var(--ref-green);
+  font-size: 70px;
+  line-height: 1.05;
+  font-weight: 400;
+}
+
+.ref-useful ul {
+  width: max-content;
+  margin: 60px auto;
+  padding-left: 25px;
+  color: var(--ref-purple);
+  text-align: left;
+  font-size: 22px;
+}
+
+.ref-ring--useful-left {
+  left: -80px;
+  top: 130px;
+}
+
+.ref-ring--useful-right {
+  right: 70px;
+  top: 250px;
+}
