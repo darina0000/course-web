@@ -722,3 +722,15 @@ button {
   right: 70px;
   top: 250px;
 }
+.ref-band {
+  color: #fff;
+  background: linear-gradient(105deg, var(--ref-green), var(--ref-lime));
+  border-radius: 50% 50% 45% 55% / 7% 7% 6% 6%;
+}
+
+.ref-courses {
+  min-height: 940px;
+  margin-top: -82px;
+  padding: 150px 0;
+  background: linear-gradient(105deg, var(--ref-green), var(--ref-lime));
+}
