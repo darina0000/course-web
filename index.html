@@ -268,6 +268,40 @@
         </div>
     </footer>
 
+     <!-- Модальные окна: тест подбора курса, полный отзыв и настройки версии для слабовидящих. -->
+  <div class="modal-backdrop" data-modal="consult">
+    <div class="modal quiz-modal">
+      <div class="modal-head">
+        <h3 data-quiz="title">Мини-тест подбора курса</h3>
+        <button class="icon-btn" data-modal-close type="button">×</button>
+      </div>
+      <form class="course-quiz" data-course-quiz>
+        <fieldset>
+          <legend data-quiz="goal">Что тебе ближе?</legend>
+          <label><input type="radio" name="goal" value="math"> <span data-quiz-option="math">Точные науки и технические специальности</span></label>
+          <label><input type="radio" name="goal" value="physics"> <span data-quiz-option="physics">Задачи, формулы и эксперименты</span></label>
+          <label><input type="radio" name="goal" value="russian"> <span data-quiz-option="russian">Тесты, текст и грамотная речь</span></label>
+          <label><input type="radio" name="goal" value="english"> <span data-quiz-option="english">Языки и международные экзамены</span></label>
+        </fieldset>
+        <fieldset>
+          <legend data-quiz="format">Как удобнее заниматься?</legend>
+          <label><input type="radio" name="format" value="offline" checked> <span data-quiz-option="offline">Очно в центре</span></label>
+          <label><input type="radio" name="format" value="online"> <span data-quiz-option="online">Онлайн</span></label>
+        </fieldset>
+        <fieldset>
+          <legend data-quiz="level">Какой сейчас уровень?</legend>
+          <label><input type="radio" name="level" value="base" checked> <span data-quiz-option="base">Нужно подтянуть базу</span></label>
+          <label><input type="radio" name="level" value="advanced"> <span data-quiz-option="advanced">Хочу высокий балл</span></label>
+        </fieldset>
+        <button class="ref-button" type="submit" data-quiz="submit">Показать рекомендацию</button>
+        <div class="course-quiz__result" data-quiz-result hidden></div>
+      </form>
+    </div>
+  </div>
+  <div class="modal-backdrop" data-modal="review"><div class="modal review-modal"><div class="modal-head review-modal__head"><h3 data-review-modal-title>ОТЗЫВ</h3><button class="icon-btn" data-modal-close type="button">×</button></div><div class="review-modal__body"><h4 data-review-modal-name>Имя ученика</h4><p class="review-modal__meta"><span data-review-modal-subject></span><br><span data-review-modal-tutor></span></p><p data-review-modal-text></p><a class="ref-button" href="results.html" data-review-modal-link>К полному списку результатов</a></div></div></div>
+  <div class="modal-backdrop" data-modal="settings"><div class="modal"><div class="modal-head"><h3>Версия для слабовидящих</h3><button class="icon-btn" data-modal-close type="button">×</button></div><div class="settings-inner settings-inner--vision"><label>Размер шрифта <select data-setting="fontSize"><option value="normal">100%</option><option value="large">150%</option><option value="xlarge">200%</option></select></label><label>Цветовая схема <select data-setting="visionScheme"><option value="light">Белая с чёрным</option><option value="dark">Чёрная с белым</option><option value="green">Чёрная с зелёным</option></select></label><label class="vision-check"><input type="checkbox" data-setting="hideImages"> <span>Отключить изображения</span></label><button type="button" data-reset-settings>Сбросить настройки</button></div></div></div>
+  <div class="toast" aria-live="polite"></div><div class="preloader"><div class="spinner"></div></div>
+
     <script src="js/app.js"></script>
 </body>
 
