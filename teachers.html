@@ -40,8 +40,47 @@
     <main id="main">
         <div class="teachers-breadcrumb ref-container"><a
                 href="index.html">Главная</a><span>›</span><strong>Преподаватели</strong></div>
+<!-- Карточка преподавателя заполняется и переключается через общий скрипт js/app.js. -->
+    <section class="teachers-band" data-teacher-carousel>
+      <div class="ref-container">
+        <h1>Команда центра «Логос»</h1>
+        <div class="teachers-layout">
+          <div class="teacher-thumbs" data-teacher-thumbs role="group" aria-label="Список преподавателей"></div>
 
-        
+          <div class="teachers-photo-card">
+            <img src="images/home-teacher.png" alt="Преподаватель физики Галина Семеновна" data-teacher-image>
+            <button class="teachers-arrow teachers-arrow--prev" type="button" data-teacher-prev aria-label="Предыдущий преподаватель">‹</button>
+            <button class="teachers-arrow teachers-arrow--next" type="button" data-teacher-next aria-label="Следующий преподаватель">›</button>
+          </div>
+
+          <article class="teacher-profile">
+            <div class="teacher-profile__head">
+              <h2><span data-teacher-surname>ВОЛКОВА</span><small data-teacher-name>Галина Семеновна</small></h2>
+              <span class="ref-subject-pill" data-teacher-subject>Физика</span>
+            </div>
+
+            <section class="teacher-metric-group">
+              <h3 data-teachers-label="education">Образование</h3>
+              <div class="teacher-metrics teacher-metrics--education">
+                <div><strong data-teacher-education-years>43</strong><b data-teacher-education-unit>года</b><span data-teacher-education-text>закончила аспирантуру</span></div>
+                <div><strong data-teacher-experience>15</strong><b data-teacher-experience-unit>лет</b><span data-teacher-experience-text>опыт подготовки к ЦТ</span></div>
+                <div><strong data-teacher-center>8</strong><b data-teacher-center-unit>лет</b><span data-teacher-center-text>работает в Центре “Логос”</span></div>
+              </div>
+            </section>
+
+            <section class="teacher-metric-group">
+              <h3 data-teachers-label="achievements">Достижения</h3>
+              <div class="teacher-achievements" data-teacher-achievements></div>
+            </section>
+
+            <section class="teacher-metric-group">
+              <h3 data-teachers-label="results">Результаты учеников</h3>
+              <div class="teacher-results" data-teacher-results></div>
+            </section>
+          </article>
+        </div>
+      </div>
+    </section>        
     </main>
 
     <footer class="ref-footer">
