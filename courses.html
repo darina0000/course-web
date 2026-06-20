@@ -37,6 +37,50 @@
         </div>
     </header>
 
+    <main id="main">
+    <!-- Каталог курсов: фильтры слева, карточки курсов и пагинация справа. -->
+    <section class="courses-catalog ref-container">
+      <div class="courses-breadcrumb"><a href="index.html">Главная</a><span>›</span><strong>Каталог</strong></div>
+      <h1>Каталог курсов</h1>
+
+      <div class="courses-catalog__grid">
+        <aside class="course-filter-panel">
+          <div class="course-filter-panel__head"><h2>Фильтры</h2><button type="button" data-courses-reset>Сбросить ×</button></div>
+          <form id="filters">
+            <label class="course-search">
+              <span aria-hidden="true">⌕</span>
+              <input id="search" type="search" placeholder="Поиск по предмету">
+            </label>
+            <label class="course-select">
+              <span>Формат обучения</span>
+              <select id="format"><option value="">Любой</option><option value="offline">Офлайн</option><option value="online">Онлайн</option></select>
+            </label>
+            <div class="course-subjects">
+              <p>Предмет</p>
+              <label><span>Математика</span><input type="checkbox" name="subject" value="math"></label>
+              <label><span>Русский язык</span><input type="checkbox" name="subject" value="russian"></label>
+              <label><span>Английский язык</span><input type="checkbox" name="subject" value="english"></label>
+              <label><span>Физика</span><input type="checkbox" name="subject" value="physics"></label>
+              <label><span>Химия</span><input type="checkbox" name="subject" value="chemistry"></label>
+              <label><span>Биология</span><input type="checkbox" name="subject" value="biology"></label>
+              <label><span>История</span><input type="checkbox" name="subject" value="history"></label>
+              <label><span>Обществоведение</span><input type="checkbox" name="subject" value="social"></label>
+            </div>
+            <div class="course-price-row">
+              <label><span>Цена от</span><input id="priceMin" type="number" min="0" step="10"></label>
+              <label><span>до</span><input id="priceMax" type="number" min="0" step="10"></label>
+            </div>
+            <select id="level" hidden><option value="">Любой</option></select>
+          </form>
+        </aside>
+
+        <div class="courses-results">
+          <div class="courses-list" id="coursesList"></div>
+          <div class="pagination courses-pagination" id="pagination"></div>
+        </div>
+      </div>
+    </section>
+    </main>
  
     <footer class="ref-footer">
         <div class="ref-container"><a class="ref-logo" href="index.html"><img src="images/logo.png"
