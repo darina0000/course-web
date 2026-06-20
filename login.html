@@ -38,7 +38,36 @@
         </div>
     </header>
 
+ <main id="main">
+    <!-- Форма входа проверяется в js/app.js, после входа здесь же показывается личный кабинет. -->
+    <section class="auth-main ref-container">
+      <div class="auth-breadcrumb"><a href="index.html" data-auth="home">Главная</a><span>›</span><strong data-auth="loginCrumb">Вход</strong></div>
+      <h1 data-auth="loginHeading">Вход в кабинет</h1>
+      <p data-auth="loginLead">Авторизуйтесь, чтобы открыть функции ученика или администратора.</p>
 
+      <div class="auth-layout auth-layout--single">
+        <form class="auth-card auth-card--login" id="loginForm" autocomplete="off" novalidate>
+          <h2 data-auth="loginCard">Авторизация</h2>
+          <label class="auth-field"><span data-auth="email">Email</span>
+            <input id="loginEmail" name="email" type="email" autocomplete="off" required>
+            <span class="error" data-error="loginEmail"></span>
+          </label>
+          <div class="auth-field"><label for="loginPassword" data-auth="password">Пароль</label>
+            <span class="auth-password">
+              <input id="loginPassword" name="password" type="password" autocomplete="new-password" required>
+              <button class="auth-password__toggle" type="button" data-password-toggle="loginPassword">Показать</button>
+            </span>
+            <span class="error" data-error="loginPassword"></span>
+          </div>
+          <button class="ref-button auth-submit" type="submit" data-auth="signIn">Войти</button>
+          <p class="auth-link"><span data-auth="noAccount">Нет аккаунта?</span> <a href="register.html" data-auth="signUp">Зарегистрироваться</a></p>
+        </form>
+      </div>
+
+      <!-- В этот блок скрипт подставляет кабинет ученика или панель администратора. -->
+      <div class="auth-profile" id="profilePanel"></div>
+    </section>
+  </main>
 
     <div class="modal-backdrop" data-modal="settings">
         <div class="modal">
