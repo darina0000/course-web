@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Курсы - Логос</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="reference-home courses-page">
+    <a class="skip-link" href="#main">К содержимому</a>
+    <!-- Общая шапка со ссылками на основные разделы сайта. -->
+    <header class="ref-header">
+        <div class="ref-container ref-header__inner">
+            <a class="ref-logo" href="index.html"><img src="images/logo.png" alt="Центр Логос"></a>
+            <button class="burger" type="button" aria-label="Открыть меню">☰</button>
+            <nav class="site-nav ref-nav">
+                <a href="about.html">О центре</a><a href="courses.html" aria-current="page">Курсы</a><a
+                    href="teachers.html">Преподаватели</a><a href="results.html">Результаты</a><a
+                    href="contacts.html">Контакты</a>
+            </nav>
+            <div class="ref-header__tools">
+                <a class="ref-account" href="login.html"><span class="ref-account__text">Кабинет</span><img
+                        src="images/user.png" alt="" aria-hidden="true"></a>
+                <div class="ref-switchers">
+                    <div class="ref-segment" role="group" aria-label="Переключение языка"><button type="button"
+                            data-lang-choice="ru">RU</button><span>/</span><button type="button"
+                            data-lang-choice="en">EN</button></div>
+                    <div class="ref-segment" role="group" aria-label="Переключение темы"><button type="button"
+                            data-theme-choice="dark">Dark</button><span>/</span><button type="button"
+                            data-theme-choice="light">Light</button></div>
+                </div>
+                <button class="ref-eye-button" type="button" data-modal-open="settings"
+                    aria-label="Версия для слабовидящих"><img src="images/eyes.png" alt="" aria-hidden="true"></button>
+            </div>
+        </div>
+    </header>
+
+ 
+    <footer class="ref-footer">
+        <div class="ref-container"><a class="ref-logo" href="index.html"><img src="images/logo.png"
+                    alt="Центр Логос"></a>
+            <nav><a href="about.html">О центре</a><a href="courses.html">Курсы</a><a
+                    href="teachers.html">Преподаватели</a><a href="results.html">Результаты</a><a
+                    href="contacts.html">Контакты</a></nav><strong>+375 (29) 123-45-67</strong>
+        </div>
+    </footer>
+    <!-- Это окно показывается гостю, если он пытается добавить курс без входа. -->
+    <div class="modal-backdrop" data-modal="authRequired">
+        <div class="modal">
+            <div class="modal-head">
+                <h3 data-auth-required-title>Нужен вход</h3><button class="icon-btn" data-modal-close
+                    type="button">×</button>
+            </div>
+            <p data-auth-required-text>Добавлять курсы в корзину могут только зарегистрированные пользователи.</p>
+            <div class="modal-actions"><a class="ref-button" href="login.html" data-auth-required-login>Войти</a><a
+                    class="ref-button ref-button--light" href="register.html"
+                    data-auth-required-register>Регистрация</a></div>
+        </div>
+    </div>
+    <div class="modal-backdrop" data-modal="settings">
+        <div class="modal">
+            <div class="modal-head">
+                <h3>Версия для слабовидящих</h3><button class="icon-btn" data-modal-close type="button">×</button>
+            </div>
+            <div class="settings-inner settings-inner--vision"><label>Размер шрифта <select data-setting="fontSize">
+                        <option value="normal">100%</option>
+                        <option value="large">150%</option>
+                        <option value="xlarge">200%</option>
+                    </select></label><label>Цветовая схема <select data-setting="visionScheme">
+                        <option value="light">Белая с чёрным</option>
+                        <option value="dark">Чёрная с белым</option>
+                        <option value="green">Чёрная с зелёным</option>
+                    </select></label><label class="vision-check"><input type="checkbox" data-setting="hideImages">
+                    <span>Отключить изображения</span></label><button type="button" data-reset-settings>Сбросить
+                    настройки</button></div>
+        </div>
+    </div>
+    <div class="toast" aria-live="polite"></div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
