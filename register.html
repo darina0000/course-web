@@ -36,7 +36,70 @@
             </div>
         </div>
     </header>
+<main id="main">
+    <!-- Форма регистрации создает аккаунт ученика и проверяет введенные данные через JavaScript. -->
+    <section class="auth-main ref-container">
+      <div class="auth-breadcrumb"><a href="index.html" data-auth="home">Главная</a><span>›</span><strong data-auth="registerCrumb">Регистрация</strong></div>
+      <h1 data-auth="registerHeading">Регистрация</h1>
+      <p data-auth="registerLead">Заполните данные ученика. Обязательные поля отмечены красной линией.</p>
 
+      <div class="auth-layout auth-layout--single">
+        <form class="auth-card auth-card--wide" id="registerForm" novalidate>
+          <h2 data-auth="createAccount">Создать аккаунт</h2>
+          <div class="auth-grid">
+            <label class="auth-field is-required"><span data-auth="fullName">ФИО</span>
+              <input id="fullName" name="name" autocomplete="name" placeholder="Иванов Иван Иванович" required>
+              <span class="error" data-error="name"></span>
+            </label>
+            <label class="auth-field is-required"><span data-auth="phone">Телефон РБ</span>
+              <input id="phone" name="phone" inputmode="tel" placeholder="+375291112233" required>
+              <span class="error" data-error="phone"></span>
+            </label>
+            <label class="auth-field is-required"><span data-auth="email">Email</span>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <span class="error" data-error="email"></span>
+            </label>
+            <label class="auth-field is-required"><span data-auth="birthDate">Дата рождения</span>
+              <input id="birthDate" name="birthDate" type="date" required>
+              <span class="error" data-error="birthDate"></span>
+            </label>
+            <!-- Никнейм генерируется автоматически, чтобы не заставлять пользователя придумывать его вручную. -->
+            <div class="auth-field auth-field--nickname is-required">
+              <label for="nickname" data-auth="nickname">Никнейм</label>
+              <div class="auth-inline">
+                <input id="nickname" name="nickname" readonly required>
+                <button type="button" data-nickname-refresh aria-label="Сгенерировать никнейм заново">↻</button>
+              </div>
+              <small data-nickname-help>Можно перегенерировать 5 раз</small>
+              <span class="error" data-error="nickname"></span>
+            </div>
+            <fieldset class="auth-field auth-fieldset is-required">
+              <legend data-auth="passwordMode">Способ задания пароля</legend>
+              <label><input type="radio" name="passwordMode" value="manual" checked> <span data-auth="manual">Самостоятельно</span></label>
+              <label><input type="radio" name="passwordMode" value="auto"> <span data-auth="auto">Автоматически</span></label>
+            </fieldset>
+            <div class="auth-field password-manual is-required"><label for="password" data-auth="password">Пароль</label>
+              <span class="auth-password">
+                <input id="password" name="password" type="password" autocomplete="new-password" required>
+                <button class="auth-password__toggle" type="button" data-password-toggle="password">Показать</button>
+              </span>
+              <span class="error" data-error="password"></span>
+            </div>
+            <div class="auth-agreement">
+              <input id="agreementRead" name="agreementRead" type="checkbox" required>
+              <span><label for="agreementRead" data-auth="agreementText">Я прочитал(а)</label> <button type="button" data-modal-open="agreement" data-auth="agreementLink">Соглашение пользователя</button> <span data-auth="agreementTail">и принимаю условия</span></span>
+            </div>
+            <span class="error auth-wide-error" data-error="agreement"></span>
+          </div>
+          <button class="ref-button auth-submit" id="registerSubmit" type="submit" disabled data-auth="signUp">Зарегистрироваться</button>
+          <p class="auth-link"><span data-auth="haveAccount">Уже есть аккаунт?</span> <a href="login.html" data-auth="signIn">Войти</a></p>
+        </form>
+      </div>
+
+      <!-- После успешной регистрации здесь появляется личный кабинет ученика. -->
+      <div class="auth-profile" id="profilePanel"></div>
+    </section>
+  </main>
 
 
  
