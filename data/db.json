@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Анна Павлова",
       "email": "anna@logos.by",
       "phone": "+375291112233",
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Илья Мороз",
       "email": "ilya@logos.by",
       "phone": "+375331234567",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Мария Литвин",
       "email": "maria@logos.by",
       "phone": "+375445551122",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Денис Ковалев",
       "email": "denis@logos.by",
       "phone": "+375257778899",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Ева Сокол",
       "email": "eva@logos.by",
       "phone": "+375291010101",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Артем Белый",
       "email": "artem@logos.by",
       "phone": "+375333030303",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Ксения Орлова",
       "email": "ksenia@logos.by",
       "phone": "+375444040404",
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Павел Романов",
       "email": "pavel@logos.by",
       "phone": "+375295050505",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Ольга Синица",
       "email": "olga.admin@logos.by",
       "phone": "+375336060606",
@@ -115,7 +115,7 @@
       "courses": []
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Сергей Волков",
       "email": "sergey.admin@logos.by",
       "phone": "+375447070707",
@@ -125,7 +125,7 @@
       "courses": []
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Дарина",
       "email": "darina.admin@logos.by",
       "phone": "+375291234567",
@@ -135,7 +135,7 @@
       "courses": []
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Новиков Дмитрий Петрович",
       "email": "dimkaa1@gmai.com",
       "phone": "+375298888888",
@@ -146,7 +146,7 @@
       "password": "Do7$3rB28zT%"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Иванов Иван Иванович",
       "email": "ivan1@gmail.com",
       "phone": "+375291111111",
@@ -157,7 +157,7 @@
       "password": "Ug3%hCaF7!wM"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Волков Михаил Аркадьевич",
       "email": "mishaa1@gmail.com",
       "phone": "+375295858585",
@@ -166,11 +166,33 @@
       "role": "student",
       "courses": [],
       "password": "Xm4%63P%H5Uq"
+    },
+    {
+      "id": "hzQZvNbA0p0",
+      "name": "Морозова Светлана Николаевна",
+      "email": "svetaa1@gmail.com",
+      "phone": "+375297897897",
+      "birthDate": "2005-05-05",
+      "nickname": "морозова-светлана-николаевна-745",
+      "role": "student",
+      "courses": [],
+      "password": "Uq6!Sx98hpPM"
+    },
+    {
+      "id": "LAHzO4tVVqQ",
+      "name": "Шишова Тамара Анатольевна",
+      "email": "tamarka2@gmail.com",
+      "phone": "+375297777785",
+      "birthDate": "2006-08-08",
+      "nickname": "шишова-тамара-анатольевна-504",
+      "role": "student",
+      "courses": [],
+      "password": "Ui9$6@fPyxPQ"
     }
   ],
   "courses": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Математика: алгебра ЦТ",
       "subject": "math",
       "level": "advanced",
@@ -182,7 +204,7 @@
       "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Математика: база с нуля",
       "subject": "math",
       "level": "basic",
@@ -194,7 +216,7 @@
       "image": "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Русский язык: тестовая часть",
       "subject": "russian",
       "level": "basic",
@@ -206,7 +228,7 @@
       "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Русский язык: интенсив",
       "subject": "russian",
       "level": "advanced",
@@ -218,7 +240,7 @@
       "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Английский: grammar boost",
       "subject": "english",
       "level": "basic",
@@ -230,7 +252,7 @@
       "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Английский: advanced practice",
       "subject": "english",
       "level": "advanced",
@@ -242,7 +264,7 @@
       "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Физика: механика",
       "subject": "physics",
       "level": "basic",
@@ -254,7 +276,7 @@
       "image": "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Физика: электричество",
       "subject": "physics",
       "level": "advanced",
@@ -266,7 +288,7 @@
       "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Химия: общая химия",
       "subject": "chemistry",
       "level": "basic",
@@ -278,7 +300,7 @@
       "image": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Химия: органика",
       "subject": "chemistry",
       "level": "advanced",
@@ -290,7 +312,7 @@
       "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Биология: человек",
       "subject": "biology",
       "level": "basic",
@@ -302,7 +324,7 @@
       "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Биология: генетика",
       "subject": "biology",
       "level": "advanced",
@@ -314,7 +336,7 @@
       "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "История Беларуси: база",
       "subject": "history",
       "level": "basic",
@@ -326,7 +348,7 @@
       "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "История Беларуси: интенсив",
       "subject": "history",
       "level": "advanced",
@@ -338,7 +360,7 @@
       "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Обществоведение: теория",
       "subject": "social",
       "level": "basic",
@@ -350,7 +372,7 @@
       "image": "https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Обществоведение: практика",
       "subject": "social",
       "level": "advanced",
@@ -362,7 +384,7 @@
       "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Математика: геометрия",
       "subject": "math",
       "level": "basic",
@@ -374,7 +396,7 @@
       "image": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Математика: пробные ЦТ",
       "subject": "math",
       "level": "advanced",
@@ -386,7 +408,7 @@
       "image": "https://images.unsplash.com/photo-1509869175650-a1d97972541a?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Русский: пунктуация",
       "subject": "russian",
       "level": "basic",
@@ -398,7 +420,7 @@
       "image": "https://images.unsplash.com/photo-1455885666463-9b4b4a4e3d8c?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Русский: сложные задания",
       "subject": "russian",
       "level": "advanced",
@@ -410,7 +432,7 @@
       "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Английский: vocabulary",
       "subject": "english",
       "level": "basic",
@@ -422,7 +444,7 @@
       "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Английский: mock tests",
       "subject": "english",
       "level": "advanced",
@@ -434,7 +456,7 @@
       "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Физика: оптика",
       "subject": "physics",
       "level": "basic",
@@ -446,7 +468,7 @@
       "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Физика: полный курс",
       "subject": "physics",
       "level": "advanced",
@@ -458,7 +480,7 @@
       "image": "https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Химия: расчетные задачи",
       "subject": "chemistry",
       "level": "basic",
@@ -470,7 +492,7 @@
       "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Химия: олимпиадный резерв",
       "subject": "chemistry",
       "level": "advanced",
@@ -482,7 +504,7 @@
       "image": "https://images.unsplash.com/photo-1606206873764-fd15e242df52?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Биология: ботаника",
       "subject": "biology",
       "level": "basic",
@@ -494,7 +516,7 @@
       "image": "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Биология: полный курс",
       "subject": "biology",
       "level": "advanced",
@@ -506,7 +528,7 @@
       "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "История: карты и даты",
       "subject": "history",
       "level": "basic",
@@ -518,7 +540,7 @@
       "image": "https://images.unsplash.com/photo-1472173148041-00294f0814a2?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Обществоведение: экспресс",
       "subject": "social",
       "level": "advanced",
@@ -532,112 +554,112 @@
   ],
   "enrollments": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 1,
       "courseId": 1,
       "status": "active",
       "paymentDate": "2026-05-10"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 1,
       "courseId": 4,
       "status": "active",
       "paymentDate": "2026-05-12"
     },
     {
-      "id": 3,
+      "id": "3",
       "userId": 2,
       "courseId": 2,
       "status": "active",
       "paymentDate": "2026-05-15"
     },
     {
-      "id": 4,
+      "id": "4",
       "userId": 2,
       "courseId": 5,
       "status": "pending",
       "paymentDate": "2026-05-20"
     },
     {
-      "id": 5,
+      "id": "5",
       "userId": 3,
       "courseId": 3,
       "status": "active",
       "paymentDate": "2026-05-09"
     },
     {
-      "id": 6,
+      "id": "6",
       "userId": 3,
       "courseId": 6,
       "status": "active",
       "paymentDate": "2026-05-11"
     },
     {
-      "id": 7,
+      "id": "7",
       "userId": 4,
       "courseId": 10,
       "status": "pending",
       "paymentDate": "2026-05-22"
     },
     {
-      "id": 8,
+      "id": "8",
       "userId": 5,
       "courseId": 7,
       "status": "active",
       "paymentDate": "2026-05-13"
     },
     {
-      "id": 9,
+      "id": "9",
       "userId": 12,
       "courseId": 1,
       "status": "active",
       "paymentDate": "2026-06-20"
     },
     {
-      "id": 10,
+      "id": "10",
       "userId": 12,
       "courseId": 26,
       "status": "active",
       "paymentDate": "2026-06-20"
     },
     {
-      "id": 11,
+      "id": "11",
       "userId": 12,
       "courseId": 6,
       "status": "active",
       "paymentDate": "2026-06-20"
     },
     {
-      "id": 12,
+      "id": "12",
       "userId": 12,
       "courseId": 13,
       "status": "active",
       "paymentDate": "2026-06-20"
     },
     {
-      "id": 13,
+      "id": "13",
       "userId": 12,
       "courseId": 4,
       "status": "pending",
       "paymentDate": ""
     },
     {
-      "id": 14,
+      "id": "14",
       "userId": 12,
       "courseId": 2,
       "status": "pending",
       "paymentDate": ""
     },
     {
-      "id": 15,
+      "id": "15",
       "userId": 12,
       "courseId": 14,
       "status": "pending",
       "paymentDate": ""
     },
     {
-      "id": 1782005770206,
+      "id": "1782005770206",
       "userId": 13,
       "courseId": 1,
       "status": "active",
@@ -646,7 +668,7 @@
   ],
   "reviews": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 1,
       "courseId": 1,
       "text": "Занятия по математике помогли мне наконец разобраться с задачами повышенной сложности. Преподаватель объяснял спокойно, мы много практиковались на тестах, и итоговый балл стал заметно выше.",
@@ -654,7 +676,7 @@
       "createdAt": "2026-06-10"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 3,
       "courseId": 3,
       "text": "Курс по русскому языку оказался очень полезным: разобрали типовые ошибки, пунктуацию и формат теста. После оплаты и прохождения занятий я стала увереннее выполнять задания.",
@@ -662,7 +684,7 @@
       "createdAt": "2026-06-18"
     },
     {
-      "id": 3,
+      "id": "3",
       "userId": 1,
       "courseId": 4,
       "text": "Интенсив по русскому языку помог быстро закрыть пробелы перед тестированием. Разобрали сочинение, пунктуацию и типовые ловушки, стало гораздо спокойнее идти на экзамен.",
@@ -670,7 +692,7 @@
       "createdAt": "2026-06-12"
     },
     {
-      "id": 4,
+      "id": "4",
       "userId": 2,
       "courseId": 2,
       "text": "На курсе математики с нуля объясняли без спешки и очень понятно. После каждого занятия я видел прогресс и перестал бояться задач из второй части.",
@@ -678,7 +700,7 @@
       "createdAt": "2026-06-14"
     },
     {
-      "id": 5,
+      "id": "5",
       "userId": 3,
       "courseId": 6,
       "text": "Advanced practice по английскому оказался полезным: много говорили, слушали аудио и разбирали сложные варианты. Подготовка стала системной.",
@@ -686,7 +708,7 @@
       "createdAt": "2026-06-16"
     },
     {
-      "id": 6,
+      "id": "6",
       "userId": 5,
       "courseId": 7,
       "text": "Физика наконец стала понятной. Особенно помогли схемы решения задач и постоянная работа над ошибками после пробных тестов.",
@@ -694,7 +716,7 @@
       "createdAt": "2026-06-19"
     },
     {
-      "id": 7,
+      "id": "7",
       "userId": 12,
       "courseId": 26,
       "text": "Органика по химии стала намного понятнее: преподаватель разложил реакции по цепочкам, и я начал решать задания быстрее.",
@@ -725,5 +747,6 @@
       "userId": 12,
       "courseId": 16
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
