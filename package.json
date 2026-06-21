@@ -1,0 +1,13 @@
+{
+  "name": "logos-ct-center",
+  "version": "1.0.0",
+  "description": "Course project: vanilla JS website for Logos CT preparation center",
+  "scripts": {
+    "server": "json-server --watch data/db.json --port 3001",
+    "static": "node scripts/static-server.js"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "json-server": "^0.17.4"
+  }
+}
